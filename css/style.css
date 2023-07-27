@@ -1,0 +1,196 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* bebas-neue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+*{
+    margin: 0;
+    padding: 0x;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    font-size:1.6rem;
+   height: 100% ;
+   font-family: "Bebas Neue", sans-serif ;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.wrapper{
+    display: flex;
+   height: 100%;
+}
+
+.hero{
+    width: 50%;
+    background-color: bisque;
+    height: 100%;
+    background-image: url('../Images/png/Rectangle\ 1\ \(1\).png');
+    background-size: cover ;
+    background-position: center;
+   
+}
+
+
+
+.hero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.hero-title {
+    color: #fff;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.2;
+letter-spacing: 2px  ;
+margin-bottom: 2.4rem;
+
+}
+.hero-wrapper{
+    width: 100%;
+    max-width: 285px;
+}
+
+.hero-btn{
+    border: 0;
+    background-color: #1E90FF;
+    padding: 1.2rem 3rem;
+}
+.hero-btn:hover{
+    background-color: rgba(30, 144, 255, 0.8);
+    transition: 0.3s;
+    cursor: pointer;}
+
+
+.hero-btn-inner-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.hero-btn-image::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../Images/svg/hero-btn-image.svg');
+}
+.hero-btn-text {
+    letter-spacing: 2px;
+color:#fff ;
+text-transform: uppercase;
+font-weight: 400;
+font-family: inherit;
+}
+
+.main{
+    width: 50%;
+    height: 100%;
+    padding: 5.4rem;
+}
+.main-divider {
+   border-top: none;
+   border-style: solid;
+   border-width: 1px;
+   border-color: #999999;
+}
+
+
+
+ul,ol{
+    list-style: none;
+}
+.main-content-link{
+    display: flex;
+    margin-top: 27px;
+  
+}
+
+.main-content-img{
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.main-content-list{
+    flex-direction: column;
+}
+.mine-content-tile:hover{
+    color: #1E90FF;
+    transition: 0.3s;
+}
+.mine-content-timeimg:hover{
+    width: 15px;
+    height: 14px;
+    transition: 0.3s;
+}
+
+.main-content-img:hover{
+    width: 200px;
+    height: 150px;
+    z-index: 999;
+}
+.hero-btm{
+    border: 0;
+    background-color: #1E90FF;
+    padding: 1.2rem 3rem ;
+    margin-top: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5.4rem;
+    }
+    .hero-btm:hover{
+        background-color: rgba(30, 144, 255, 0.8);
+        transition: 0.3s;
+        cursor: pointer;}
+       .soat{
+        display: flex;
+        margin-right: 2px;
+        align-items: center;
+       }
+       .koz{
+        display: flex;
+        margin-right: 2px;
+        align-items: center;
+       }
+       .obshi{
+        display: flex;
+        
+        gap: 2.4rem;
+       }
