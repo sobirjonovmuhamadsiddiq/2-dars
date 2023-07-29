@@ -159,11 +159,7 @@ ul,ol{
     transition: 0.3s;
 }
 
-.main-content-img:hover{
-    width: 200px;
-    height: 150px;
-    z-index: 999;
-}
+
 .hero-btm{
     border: 0;
     background-color: #1E90FF;
